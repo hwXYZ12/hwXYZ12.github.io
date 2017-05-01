@@ -10,22 +10,20 @@ body{
 	background-size: cover;
 	margin: 0;
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#topLabel{
+	margin-top: -12%;
 }
 
 .textLabel{
 	color: #fff;
 	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	font: 24px "Open Sans", sans-serif;
-}
-
-.parent{
-	display: flex;
-	flex-flow: column;
-	justify-content: space-around;
-}
-
-.child{
-	margin: auto;
+	align-self: center;
 }
 
 #message{
@@ -37,12 +35,20 @@ body{
 #username{
 	font: 15px monospace;
 	border-radius: 5px;
+	margin-bottom: 7%;
 }
 
-#theButton{
-	flex: 0 1 50%;
+#inputFields{	
+	background-color: rgba(0,255,0, 0.618);
+	padding: 3rem;
+	border-radius: 3%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	margin: 5% auto;
 }
 
-.boundingBox{
-	background-color: rbga(0,255,0, 0.618);
+#theButton{	
+	align-self: center;
 }
