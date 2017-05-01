@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <script src="index.js"></script>
+<link rel="stylesheet" href="css/index.css"></link>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<input type="text" name="username" value="name">
-<input type="text" name="message" value="message">
-<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="custom" value="message">
-    <input type="hidden" name="hosted_button_id" value="JT58XEPR6SMPS">
-    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+<body class="parent">
+	<label class="child textLabel boundingBox">Username</label>
+	<input class="child" type="text" id="username" maxlength=50 value="Name">
+	<label class="child textLabel">Message (Max 200 char.)</label>
+	<textarea class="child" rows="8" cols="26" type="text" id="message" maxlength=200 value="message">Message</textarea>
+	<form class="child" id="theButton" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		<input type="hidden" name="cmd" value="_s-xclick">
+		<input type="hidden" id="customInput" name="custom" value="name                                              message">
+		<input type="hidden" name="hosted_button_id" value="JT58XEPR6SMPS">	
+		<input type="image" src="images/donateButtonTransparent.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+	</form>
 </body>
 </html>

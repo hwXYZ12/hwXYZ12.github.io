@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html{
+	margin: 0;
+	height: 100%;
+}
+
+body{
+	background-image: url('C:\\Users\\Will\\Desktop\\hwXYZ12.github.io\\images\\matrix3.gif');	
+	background-size: cover;
+	margin: 0;
+	height: 100%;
+}
+
+.textLabel{
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font: 24px "Open Sans", sans-serif;
+}
+
+.parent{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+}
+
+.child{
+	margin: auto;
+}
+
+#message{
+	font: 15px monospace;
+	resize: none;
+	border-radius: 5px;
+}
+
+#username{
+	font: 15px monospace;
+	border-radius: 5px;
+}
+
+#theButton{
+	flex: 0 1 50%;
+}
+
+.boundingBox{
+	background-color: rbga(0,255,0, 0.618);
+}
