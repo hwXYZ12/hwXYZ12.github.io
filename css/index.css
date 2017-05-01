@@ -6,7 +6,7 @@ html{
 }
 
 body{
-	background-image: url('C:\\Users\\Will\\Desktop\\hwXYZ12.github.io\\images\\matrix3.gif');	
+	background-image: url('../images/matrix3.gif');	
 	background-size: cover;
 	margin: 0;
 	height: 100%;
