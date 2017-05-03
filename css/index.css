@@ -6,8 +6,9 @@ html{
 }
 
 body{
-	background-image: url('../images/matrix3.gif');	
+	background-image: url('../images/matrix3.gif');
 	background-size: cover;
+	background-color: black;
 	margin: 0;
 	height: 100%;
 	display: flex;
