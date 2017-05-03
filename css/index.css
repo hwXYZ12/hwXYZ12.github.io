@@ -46,9 +46,17 @@ body{
 	flex-direction: column;
 	justify-content: flex-start;
 	align-content: center;
-	margin: 5% auto;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #theButton{	
+	align-self: center;
+}
+
+#feesFeelsAmazingMan{
+	margin-top: -3%;
 	align-self: center;
 }
