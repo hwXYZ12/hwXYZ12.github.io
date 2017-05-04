@@ -1,6 +1,6 @@
 ﻿(() => {
 
-	/*window.addEventListener("keyup", setupCustomInput);
+	window.addEventListener("keyup", setupCustomInput);
 
 	function setupCustomInput(){
 		let c = document.getElementById('customInput');
@@ -12,6 +12,6 @@
 		let padded = (x1.value+"                                                  ").slice(0,50);						
 		
 		c.value = padded + x2.value;
-	}*/
+	}
 
 })();
