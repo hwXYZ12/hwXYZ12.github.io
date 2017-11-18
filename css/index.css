@@ -39,10 +39,18 @@ canvas {
 	align-self: center;
 }
 
+#imgVidOnly{
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font: 16px "Open Sans", sans-serif;
+	align-self: center;
+}
+
 #message{
 	font: 15px monospace;
 	resize: none;
 	border-radius: 5px;
+	margin-bottom: 7%;
 }
 
 #username{
