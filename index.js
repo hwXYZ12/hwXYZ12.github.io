@@ -16,9 +16,9 @@
 		
 		let memeLen = x3.value.length;
 
-		x4 = x4.slice(0, 256 - memeLen);
+		x4 = x4.slice(0, 256 - memeLen - 1);
 
-		c.value = x4 + x3.value;
+		c.value = x4 + '|' + x3.value;
 	}
 
 })();
